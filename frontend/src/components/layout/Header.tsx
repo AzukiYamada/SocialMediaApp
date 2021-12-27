@@ -1,11 +1,16 @@
 import React from 'react';
+import styled from 'styled-components';
 
 function Header() {
   return (
-    <div>
+    <Wrapper>
       <h1>Gmail</h1>
-    </div>
+    </Wrapper>
   );
 }
 
 export default Header;
+
+const Wrapper = styled.div`
+  background-color: orange;
+`;
